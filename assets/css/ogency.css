@@ -1346,20 +1346,39 @@
 }
 /*  */
 .ogency-btnx {
-padding: 8px;
+padding: 7px;
+font-weight: 500;
 border-radius: 3px;
 background-color: transparent;
 border: 2px solid white;
 }
 
-
+@media only screen and (max-width: 768px) {
+  .ogency-btnx{
+    display: none;
+  }
+  
+}
 
  .ogency-btnx:hover {
   border: 2px solid gold;
   color: white;
 }
 
-
+.nav-btn-top{
+  top: 4px;
+}
+.nav-btnx{
+  padding: 5px;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 1px solid gold;
+  color: white;
+}
+.nav-btnx:hover{
+  color: gold;
+  border: 2px solid gold;
+}
 /*  */
 .blog-details__comment-form {
   position: relative;
@@ -7147,7 +7166,7 @@ h6 {
   margin: 0 0 0 70px;
   max-width: 598px;
   text-align: center;
-  top: 20px;
+  top: 55px;
 }
 
 @media (max-width: 1199px) {
@@ -11897,46 +11916,6 @@ h1 {
   width: 80%;
 }
 }
-
-/* type text */
-
-.type {
-  background-color: #000;
-  color: #eee;
+body{
+  overflow-x: hidden;
 }
-.container5 {
-  height: 25vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.container5 p {
-  font-size: 3rem;
-  padding: 0.5rem;
-  font-weight: bold;
-  letter-spacing: 0.1rem;
-  text-align: center;
-  overflow: hidden;
-}
-.container5 p span.typed-text {
-  font-weight: normal;
-  color: #fed811;
-}
-.container5 p span.cursor {
-  display: inline-block;
-  background-color: #ccc;
-  margin-left: 0.1rem;
-  width: 3px;
-  animation: blink 1s infinite;
-}
-.container5 p span.cursor.typing {
-  animation: none;
-}
-@keyframes blink {
-  0%  { background-color: #ccc; }
-  49% { background-color: #ccc; }
-  50% { background-color: transparent; }
-  99% { background-color: transparent; }
-  100%  { background-color: #ccc; }
-}
-
