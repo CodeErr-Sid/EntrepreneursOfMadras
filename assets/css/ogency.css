@@ -3418,7 +3418,7 @@ h6 {
   background-size: auto;
   background-position: top center;
   background-repeat: no-repeat;
-  padding: 212px 0 0;
+  /* padding: 212px 0 0; */
 }
 
 @media (max-width: 991px) {
@@ -3811,8 +3811,8 @@ h6 {
 }
 
 .main-slider__two__content__title {
-  font-size: 100px;
-  line-height: 110px;
+  font-size: 60px;
+  line-height: 100px;
   letter-spacing: 10px;
   text-transform: uppercase;
   margin: 0;
@@ -4708,7 +4708,7 @@ h6 {
 }
 
 .slider-text-one .slider-text-one__animate-text {
-  animation: text-scrolling 28s linear infinite;
+  animation: text-scrolling 50s linear infinite;
   animation-direction: reverse;
   will-change: transform;
   display: block;
@@ -4721,12 +4721,12 @@ h6 {
 }
 
 .slider-text-one .slider-text-one__animate-text span {
-  font-size: 80px;
-  letter-spacing: -7.2px;
+  font-size: 60px;
+  /* letter-spacing: -7.2px; */
   line-height: 1;
   margin: 0;
   color: var(--ogency-white);
-  font-weight: 800;
+  font-weight: 700;
   display: inline-block;
   min-width: auto;
 }
@@ -5498,7 +5498,7 @@ h6 {
 }
 
 .project-one .ogency-btn {
-  background-color: var(--ogency-black2);
+  /* background-color: var(--ogency-black2); */
   margin-top: 67px;
 }
 
@@ -11785,4 +11785,5 @@ h1 {
 }
 }
 
-/
+/* curved circle */
+
