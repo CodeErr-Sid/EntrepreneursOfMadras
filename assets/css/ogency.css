@@ -1780,6 +1780,7 @@ h6 {
   font-size: 2em;
   margin: 0 10px;
   animation: fadeIn 1s ease-in-out forwards;
+  color: gold;
 }
 
 .pl-word:nth-child(1) {
@@ -1797,10 +1798,17 @@ h6 {
 .pl-logo {
   display: none;
   opacity: 0;
-  font-size: 3em;
+  /* font-size: 3em; */
   z-index: 20;
   animation: logoAnimation 3s ease-in-out forwards;
   animation-play-state: paused;
+}
+
+@media (max-width: 786px) {
+  .pl-logo {
+    margin-bottom: 40%;
+
+  }
 }
 
 @keyframes fadeIn {
@@ -2542,6 +2550,8 @@ h6 {
 
 .mobile-nav__toggler:hover {
   color: var(--ogency-base);
+  margin-bottom: 15px;
+  margin-right: 10px;
 }
 
 @media (min-width: 1200px) {
