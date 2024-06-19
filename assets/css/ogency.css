@@ -3554,13 +3554,14 @@ h6 {
 
 @media (max-width: 991px) {
   .hero-banner {
-    padding-top: 180px;
+    /* padding-top: 180px; */
   }
 }
 
+
 @media (max-width: 767px) {
   .hero-banner {
-    padding-top: 150px;
+    /* padding-top: 150px; */
   }
 }
 
@@ -8410,7 +8411,7 @@ h6 {
 }
 
 .award-one__trophy img {
-  mix-blend-mode: luminosity;
+  /* mix-blend-mode: luminosity; */
 }
 
 @media (max-width: 767px) {
@@ -11865,7 +11866,7 @@ h1 {
 
 .container4 {
   background-color: #323842;
-  color: gold;
+  color: white;
   border-radius: 20px;
   box-shadow: 0 5px 10px 0 rgb(0,0,0,0.25);
   margin: 20px 0;
@@ -11902,7 +11903,7 @@ h1 {
 .answer {
   padding: 0 20px 20px;
   line-height: 1.5rem;
-  color: white;
+  color: gold;
 }
 
 .question.active + .answercont {
@@ -11915,6 +11916,24 @@ h1 {
   .wrapper {
   width: 80%;
 }
+
+/* mobile cursor off */
+@media (max-width: 991px){
+  .custom-cursor__cursor {
+    display: none;
+  }
+  .custom-cursor__cursor-two{
+    display: none;
+  }
+  
+}
+@media (max-width: 767px){
+  .custom-cursor__cursor  {
+    display: none;
+  }
+  .custom-cursor__cursor-two{
+    display: none;
+  }
 }
 
 

@@ -513,10 +513,10 @@
   }
 
   /*-- Text Sliding --*/
-  let parent = document.querySelectorAll('.slider-text-one__animate-text');
-  for (let i = 0; i < parent.length; i++) {
-    parent[i].style.width = parent[i].children[0].clientWidth + "px";
-  };
+  // let parent = document.querySelectorAll('.slider-text-one__animate-text');
+  // for (let i = 0; i < parent.length; i++) {
+  //   parent[i].style.width = parent[i].children[0].clientWidth + "px";
+  // };
 
   // Popular Causes Progress Bar
   if ($(".count-bar").length) {
