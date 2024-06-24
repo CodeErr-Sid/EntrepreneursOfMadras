@@ -1439,7 +1439,7 @@ border: 2px solid white;
   --heading-font: 'Plus Jakarta Sans', sans-serif;
   --ogency-color: #5d5d5d;
   --ogency-color-rgb: 93, 93, 93;
-  --ogency-base: #fed811;
+  --ogency-base: #d1a119;
   --ogency-base-rgb: 245, 144, 13;
   --ogency-black: #000000;
   --ogency-black-rgb: 0, 0, 0;
@@ -2057,13 +2057,13 @@ h6 {
 
 .section-title__title {
   font-size: 50px;
-  letter-spacing: -2px;
+  /* letter-spacing: -2px; */
   margin: 0;
 }
 
 @media (max-width: 767px) {
   .section-title__title {
-    font-size: 30px;
+    font-size: 20px !important;
     line-height: 40px;
     letter-spacing: -1px;
   }
@@ -3192,6 +3192,12 @@ h6 {
 .main-slider {
   position: relative;
   display: block;
+
+}
+
+.main-slider__two__content__title{
+  font-family: 'Times New Roman', Times, serif !important;
+  color: var(--ogency-base) !important;
 }
 
 .main-slider__one {
@@ -4629,6 +4635,7 @@ h6 {
   background-position: top left;
   background-repeat: no-repeat;
   padding: 90px 0;
+  margin-bottom: -150px;
 }
 
 @media (max-width: 767px) {
@@ -6143,11 +6150,11 @@ h6 {
 }
 
 .team-one__item__content {
-  background-color: var(--ogency-black);
+  background-color: var(--ogency-base);
   margin: -64px 20px 0 0;
   position: relative;
   z-index: 2;
-  padding: 33px 30px 0;
+  padding: 20px;
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -6188,7 +6195,7 @@ h6 {
 }
 
 .team-one__item__title a:hover {
-  color: var(--ogency-base);
+  /* color: var(--ogency-base); */
 }
 
 .team-one__item__links {
@@ -6200,7 +6207,7 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--ogency-black3);
+  /* background-color: var(--ogency-black3); */
   color: var(--ogency-white);
   font-size: 12px;
 }
