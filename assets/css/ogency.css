@@ -1559,7 +1559,7 @@ h6 {
   font-size: 16px;
   font-weight: 800;
   font-family: var(--ogency-font);
-  padding: 16px 50px 17px;
+  padding: 6px 12px ;
   transition: 500ms;
   overflow: hidden;
   z-index: 2;
@@ -5467,7 +5467,8 @@ h6 {
 .service-three__item__thumb img {
   width: 100%;
   height: auto;
-  mix-blend-mode: luminosity;
+  padding: 30px;
+  /* mix-blend-mode: luminosity; */
   transition: 500ms ease;
 }
 
@@ -5485,10 +5486,11 @@ h6 {
   width: 288px;
   height: 288px;
   padding: 20px;
-  background-color: RGBA(var(--ogency-base-rgb), 0.9);
-  border-radius: 50%;
+  /* background-color: RGBA(var(--ogency-base-rgb), 0.9); */
+  /* border-radius: 50%; */
   display: flex;
   align-items: center;
+  align-items: end;
   justify-content: center;
   -webkit-transition: -webkit-transform 400ms ease;
   transition: -webkit-transform 400ms ease;
@@ -5918,6 +5920,7 @@ h6 {
   /* mix-blend-mode: luminosity; */
   transition: all 500ms ease;
   transform: scale(1);
+  padding: 30px;
 }
 
 .project-two__item__image::after {
