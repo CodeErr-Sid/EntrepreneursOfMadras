@@ -3879,8 +3879,8 @@ h6 {
   background-position: center;
   transform: scale(1);
   z-index: 1;
-  mix-blend-mode: luminosity;
-  opacity: .70;
+  /* mix-blend-mode: luminosity; */
+  opacity: .5;
 }
 
 .active .main-slider__two__bg {
